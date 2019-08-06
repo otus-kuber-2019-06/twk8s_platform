@@ -8,5 +8,5 @@ subjects:
   namespace: dev
 roleRef:
   kind: ClusterRole
-  name: cluster-admin
+  name: admin
   apiGroup: ""
