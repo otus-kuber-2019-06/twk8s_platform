@@ -4,6 +4,6 @@ metadata:
   namespace: dev
   name: ken-view
 rules:
-- apiGroups: [""]
+- apiGroups: ["rbac.authorization.k8s.io"]
   resources: ["pods", "deployments"]
   verbs: ["list", "get", "watch"]
