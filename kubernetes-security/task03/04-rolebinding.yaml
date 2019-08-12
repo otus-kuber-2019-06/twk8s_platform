@@ -1,5 +1,5 @@
 kind: Role
-apiVersion: rbac.authorization.k8s.io/v1
+apiVersion: rbac.authorization.k8s.io/v1beta1
 metadata:
   namespace: dev
   name: ken-view
