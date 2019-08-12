@@ -5,5 +5,5 @@ metadata:
   name: ken-view
 rules:
 - apiGroups: [""]
-  resources: ["pods"]
+  resources: ["pods", "deployments"]
   verbs: ["list", "get", "watch"]
