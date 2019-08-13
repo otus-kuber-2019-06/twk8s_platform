@@ -7,7 +7,7 @@ subjects:
 - kind: ServiceAccount
   namespace: dev
   name: ken
-  apiGroup: rbac.authorization.k8s.io
+  apiGroup: ""
 roleRef:
   kind: Role
   name: ken-view 
