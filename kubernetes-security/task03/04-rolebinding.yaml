@@ -4,6 +4,6 @@ metadata:
   namespace: dev
   name: ken-view
 rules:
-- apiGroups: [""]
+- apiGroups: ["", "apps", "extensions"]
   resources: ["pods", "deployments"]
   verbs: ["list", "get", "watch"]
