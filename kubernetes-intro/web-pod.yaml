@@ -8,6 +8,16 @@ spec:
   containers:
   - name: web
     image: twk8s/homework:my_nginx
+# --- BEGIN ---
+    readinessProbe:
+      httpGet:
+        path: /index.html
+        port: 80
+# --- END ---
+# --- START ---
+    livenessProbe:
+      tcpSocket: { port: 8000 }
+# --- END ---
     ports:
     - containerPort: 8000
     volumeMounts:
